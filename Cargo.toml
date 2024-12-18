@@ -1,0 +1,11 @@
+[package]
+name = "dynamic_dns_updater"
+authors = ["Jeremy Arnold <jeremy@possiblyfaulty.com>"]
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.42.0", features = ["rt", "rt-multi-thread", "macros"] }
+tokio-macros = "2.4.0"
+reqwest = "0.12.9"
+digitalocean = "0.1.1"
